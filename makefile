@@ -3,4 +3,4 @@ CC_FLAGS = -Wall -Wextra -g -std=c11
 CC = clang
 
 all:
-	${CC} ${SRC_FILES} ${CC_FLAGS} -o vmc
+	${CC} ${SRC_FILES} ${CC_FLAGS} -o vmc.out
